@@ -1,5 +1,7 @@
 # curriculum-vue
 
+![Preview](./src/assets/preview.png "a title")
+
 ## Project setup
 ```
 npm install
