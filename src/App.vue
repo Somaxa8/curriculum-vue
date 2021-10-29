@@ -11,7 +11,7 @@
                                 </v-sheet>
                                 <div class="flex-fill d-flex justify-center" style="margin-top: -75px">
                                     <v-avatar size="220" class="bordered">
-                                        <img src="https://cdn.vuetifyjs.com/images/john.jpg" alt="avatar">
+                                        <img src="@/assets/avatar.jpeg" alt="avatar">
                                     </v-avatar>
                                 </div>
                             </v-card-title>
