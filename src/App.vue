@@ -160,19 +160,17 @@ export default class App extends Vue {
     language: string = "es"
     esRanting: number = 5
     enRanting: number = 2
-    english: any = english
-    spanish: any = spanish
     lang: any = spanish
 
     changeLanguage() {
         if (this.language == "es") {
             this.language = "en"
-            this.lang = this.english
+            this.lang = english
             return
         }
         if (this.language == "en") {
             this.language = "es"
-            this.lang = this.spanish
+            this.lang = spanish
         }
     }
 
