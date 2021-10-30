@@ -8,6 +8,8 @@ export default {
     myCharge: "My Charge",
     workExperience: "Work Experience",
     webDeveloper: "Web Developer",
+    technology: "Technologies",
+    references: "References",
     spanish: "Spanish",
     english: "English",
 

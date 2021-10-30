@@ -8,7 +8,8 @@ export default {
     myCharge: "Mi Cargo",
     workExperience: "Experiencia Laboral",
     webDeveloper: "Desarrollador Web",
-    technology: "Technologies",
+    technology: "Tecnologias",
+    references: "Referencias",
     spanish: "Español",
     english: "Ingles",
 
