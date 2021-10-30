@@ -7,7 +7,7 @@
                         <v-card color="secondary" class="overflow-hidden" elevation="0" style="border-radius: 20px" >
                             <v-card-title class="pa-0">
                                 <v-sheet color="primary" height="130" width="100%">
-                                    <v-btn text icon @click="changeLanguage">{{language}}</v-btn>
+                                    <v-btn text icon @click="changeLanguage">{{language === "es" ? "en" : "es"}}</v-btn>
                                 </v-sheet>
                                 <div class="flex-fill d-flex justify-center" style="margin-top: -75px">
                                     <v-avatar size="220" class="bordered">
@@ -114,7 +114,7 @@
                                                     <h3>{{ item.charge }}</h3>
                                                     <v-card-subtitle>{{ item.time }}</v-card-subtitle>
                                                 </div>
-                                                <v-card elevation="0" class="ml-6">
+                                                <v-card elevation="0" class="ml-4">
                                                     <v-card-title>{{ item.title }}</v-card-title>
                                                     <v-card-text>
                                                         {{ item.description }}
