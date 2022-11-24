@@ -18,9 +18,15 @@ export default {
         Llevo mas de tres años trabajando como desarrollador principalmente Freelance.
     `,
 
+    referenceList: [
+        {id: 1, company: "Digitalapp", companyEmail: "jeronimo@digitalapp.es", charge: "Desarrollador Web"},
+        {id: 1, company: "Tecnopolis", companyEmail: "info@tecnopolis.com.es", charge: "Desarrollador de Software"},
+    ],
+
     lines: [
+        { id: 2, color: "error", charge: "Desarrollador Web", time: "(2020 - 2021)", title: "IES Europa", description: "IES Europa es un instituto localizado en Murcia (España) para el que he trabajado haciendoles una pequeña web de gestión de documentos y donde igualmente podian gestionar horarios para sus materias. (https://ieseuropa.es/)"},
         { id: 1, color: "success", charge: "Desarrollador Web", time: "(2020 - HOY)", title: "Digitalapp", description: "Llevo dos años trabajado para Digitalapp haciendo proyectos principalmente de tipo Ecommerce. Las tecnologias que principalmente he optado para los proyectos de esta empresa son, Spring Boot con Mysql, Vuejs con Typescript (Para las webs) y tambien un pequeño proyecto de backend hecho en Nodejs."},
-        { id: 2, color: "error", charge: "Desarrollador Web", time: "(2020 - 2021)", title: "IES Europa", description: "IES Europa es un instituto localizado en Murcia (España) para el que he trabajado haciendoles una pequeña web de gestión de documentos y donde igualmente podian gestionar horarios para sus materias. (https://ieseuropa.es/)"}
+        { id: 1, color: "success", charge: "Desarrollador Web", time: "(2021 - HOY)", title: "Tecnopolis", description: "Llevo un años trabajando para Tecnopolis manteniendo proyectos de la empresa, principalmente en aplicaciones Spring Boot, Codeigniter, Angular y Flutter"}
     ],
 
     technologies: [

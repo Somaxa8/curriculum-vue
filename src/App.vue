@@ -45,18 +45,18 @@
                                 <h3 class="text-center text-uppercase">{{ lang.references }}</h3>
                                 <Divider />
                             </v-card-title>
-                            <v-card-text>
+                            <v-card-text v-for="item in lang.referenceList" :key="item.company">
                                 <div class="d-flex align-center ml-4">
                                     <div>
                                         <v-img src="@/assets/company-icon.png" alt="company" width="50"/>
                                     </div>
                                     <div class="ml-3">
-                                        <h3>Digitalapp</h3>
+                                        <h3>{{ item.company }}</h3>
                                         <div class="d-flex">
-                                            <h4>{{ lang.contact }}: <span>jeronimo@digitalapp.es</span></h4>
+                                            <h4>{{ lang.contact }}: <span>{{ item.companyEmail }}</span></h4>
                                         </div>
                                         <div class="d-flex">
-                                            <h4>{{ lang.myCharge }}: <span>{{ lang.webDeveloper }}</span></h4>
+                                            <h4>{{ lang.myCharge }}: <span>{{ item.charge }}</span></h4>
                                         </div>
                                     </div>
                                 </div>
